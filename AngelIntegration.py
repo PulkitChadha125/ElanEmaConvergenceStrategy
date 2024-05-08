@@ -82,7 +82,102 @@ def get_historical_data(symbol,token,timeframe,ema1,ema2,ema3,ema4):
     except Exception as e:
         logger.exception(f"Historic Api failed: {e}")
 
+def buy(symbol,token,quantity,exchange):
+    try:
+        orderparams = {
+            "variety": "NORMAL",
+            "tradingsymbol": symbol,
+            "symboltoken": token,
+            "transactiontype": "BUY",
+            "exchange": exchange,
+            "ordertype": "MARKET",
+            "producttype": "INTRADAY",
+            "duration": "DAY",
+            "price": "0",
+            "squareoff": "0",
+            "stoploss": "0",
+            "quantity": quantity
+        }
+        # Method 1: Place an order and return the order ID
+        orderid = smartApi.placeOrder(orderparams)
+        logger.info(f"PlaceOrder : {orderid}")
+        # Method 2: Place an order and return the full response
+        response = smartApi.placeOrderFullResponse(orderparams)
+        logger.info(f"PlaceOrder : {response}")
+    except Exception as e:
+        logger.exception(f"Order placement failed: {e}")
 
+def sell(symbol,token,quantity,exchange):
+    try:
+        orderparams = {
+            "variety": "NORMAL",
+            "tradingsymbol": symbol,
+            "symboltoken": token,
+            "transactiontype": "SELL",
+            "exchange": exchange,
+            "ordertype": "MARKET",
+            "producttype": "INTRADAY",
+            "duration": "DAY",
+            "price": "0",
+            "squareoff": "0",
+            "stoploss": "0",
+            "quantity": quantity
+        }
+        # Method 1: Place an order and return the order ID
+        orderid = smartApi.placeOrder(orderparams)
+        logger.info(f"PlaceOrder : {orderid}")
+        # Method 2: Place an order and return the full response
+        response = smartApi.placeOrderFullResponse(orderparams)
+        logger.info(f"PlaceOrder : {response}")
+    except Exception as e:
+        logger.exception(f"Order placement failed: {e}")
 
+def SHORT(symbol,token,quantity,exchange):
+    try:
+        orderparams = {
+            "variety": "NORMAL",
+            "tradingsymbol": symbol,
+            "symboltoken": token,
+            "transactiontype": "SHORT",
+            "exchange": exchange,
+            "ordertype": "MARKET",
+            "producttype": "INTRADAY",
+            "duration": "DAY",
+            "price": "0",
+            "squareoff": "0",
+            "stoploss": "0",
+            "quantity": quantity
+        }
+        # Method 1: Place an order and return the order ID
+        orderid = smartApi.placeOrder(orderparams)
+        logger.info(f"PlaceOrder : {orderid}")
+        # Method 2: Place an order and return the full response
+        response = smartApi.placeOrderFullResponse(orderparams)
+        logger.info(f"PlaceOrder : {response}")
+    except Exception as e:
+        logger.exception(f"Order placement failed: {e}")
 
-
+def cover(symbol,token,quantity,exchange):
+    try:
+        orderparams = {
+            "variety": "NORMAL",
+            "tradingsymbol": symbol,
+            "symboltoken": token,
+            "transactiontype": "COVER",
+            "exchange": exchange,
+            "ordertype": "MARKET",
+            "producttype": "INTRADAY",
+            "duration": "DAY",
+            "price": "0",
+            "squareoff": "0",
+            "stoploss": "0",
+            "quantity": quantity
+        }
+        # Method 1: Place an order and return the order ID
+        orderid = smartApi.placeOrder(orderparams)
+        logger.info(f"PlaceOrder : {orderid}")
+        # Method 2: Place an order and return the full response
+        response = smartApi.placeOrderFullResponse(orderparams)
+        logger.info(f"PlaceOrder : {response}")
+    except Exception as e:
+        logger.exception(f"Order placement failed: {e}")
