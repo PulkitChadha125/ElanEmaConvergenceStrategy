@@ -1,0 +1,13 @@
+buy condition ema 3 - ema 5 should be positive and ema 20 - ema 30 should be negative
+with stop and reverse
+stoploss target and tsl based on instrument price
+long ema turns positive exit
+
+sell condition  ema 3 - ema 5 should be negative and ema 20 - ema 30 should be positive
+with stop and reverse
+stoploss target and tsl based on instrument price
+long ema turn negative
+
+
+
+direct integration with broker
