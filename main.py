@@ -3,9 +3,13 @@ import traceback
 import pandas as pd
 import AngelIntegration
 from datetime import datetime, timedelta
+
+
 def write_to_order_logs(message):
     with open('OrderLog.txt', 'a') as file:  # Open the file in append mode
         file.write(message + '\n')
+
+
 def delete_file_contents(file_name):
     try:
         # Open the file in write mode, which truncates it (deletes contents)
@@ -18,6 +22,8 @@ def delete_file_contents(file_name):
         print(f"An error occurred: {str(e)}")
 
 result_dict={}
+
+
 def get_user_settings():
     global result_dict
     try:
@@ -98,7 +104,6 @@ def main_strategy():
             timestamp = timestamp.strftime("%d/%m/%Y %H:%M:%S")
             if isinstance(symbol_value, str):
                 token=get_token(symbol=params['Symbol'])
-                print("token",token)
                 data= AngelIntegration.get_historical_data(symbol=params['Symbol'],token=token,timeframe=params['TimeFrame'],
                                                            ema1=params['EMA1'],ema2=params['EMA2'],
                                                            ema3=params['EMA3'],ema4=params['EMA4'])
@@ -109,7 +114,7 @@ def main_strategy():
                 longemadifference_previous = data.iloc[-3]['longemadifference']
                 ltp=  data.iloc[-1]['close']
 
-
+                # buy
                 if smalemadifference_current>0 and longemadifference_current <0 and params['BUY'] ==False:
                     if params['sell'] == True:
                         AngelIntegration.cover(symbol=symbol, token=token, quantity=params['lotsize'], exchange="NFO")
@@ -147,7 +152,8 @@ def main_strategy():
                     write_to_order_logs(orderlog)
                     print(orderlog)
 
-    # stand tp
+                # sl and tp
+
                 if params['BUY']==True:
                     if ltp>=params['tpvalue'] and params['tpvalue']>0:
                         params['BUY']=False
@@ -193,7 +199,7 @@ def main_strategy():
                         print(orderlog)
                         params['tslstart']=params['tslstart']-params['Tsl']
 
-    #             buyexit
+                # buyexit
                 if longemadifference_current>0 and params['BUY']==True:
                     params['BUY']=False
                     params['slvalue']=0
