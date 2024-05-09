@@ -1,0 +1,390 @@
+09/05/2024 13:14:35 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 200.85, sl=190.85,tp=229.85, tsl start=205.85, small=1.9498970549177272,long=-13.906270449141942
+09/05/2024 13:14:36 Short order executed @ BANKNIFTY15MAY2448200PE , @ 692.0, sl=702.0,tp=663.0, tsl start=687.0, small=-4.81876574341436,long=28.277829536181912
+09/05/2024 13:15:01 Buy order executed @ NIFTY16MAY2422300CE , @ 80.4, sl=70.4,tp=109.4, tsl start=85.4, small=0.19329186287123434,long=-8.39442019517918
+09/05/2024 13:15:08 TSL level hit sell = 687.0 new sl = 697.0 
+09/05/2024 13:15:26 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 698.95
+09/05/2024 13:15:29 Short order executed @ BANKNIFTY15MAY2448200PE , @ 698.2, sl=708.2,tp=669.2, tsl start=693.2, small=-4.984382871707226,long=26.8301416676818
+09/05/2024 13:15:42 TSL level hit sell = 693.2 new sl = 703.2 
+09/05/2024 13:16:02 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 703.75
+09/05/2024 13:17:02 Short order executed @ BANKNIFTY15MAY2448200PE , @ 700.75, sl=710.75,tp=671.75, tsl start=695.75, small=-1.1460957179267552,long=24.657866190651475
+09/05/2024 13:18:14 TSL level hit sell = 695.75 new sl = 705.75 
+09/05/2024 13:18:31 TSL level hit sell = 690.75 new sl = 700.75 
+09/05/2024 13:19:14 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 702.55
+09/05/2024 13:19:17 Short order executed @ BANKNIFTY15MAY2448200PE , @ 702.4, sl=712.4,tp=673.4, tsl start=697.4, small=-6.0240239294817,long=21.800029789165706
+09/05/2024 13:20:46 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 715.7
+09/05/2024 13:20:48 Buy exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 189.3
+09/05/2024 13:23:02 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 190.95, sl=180.95,tp=219.95, tsl start=195.95, small=0.8692380801853972,long=-10.965089185704244
+09/05/2024 13:23:03 Short order executed @ BANKNIFTY15MAY2448200PE , @ 717.5, sl=727.5,tp=688.5, tsl start=712.5, small=-1.4983764955926517,long=22.07525735093543
+09/05/2024 13:23:21 TSL level hit sell = 712.5 new sl = 722.5 
+09/05/2024 13:23:33 TSL level hit sell = 707.5 new sl = 717.5 
+09/05/2024 13:23:46 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 721.15
+09/05/2024 13:23:49 Short order executed @ BANKNIFTY15MAY2448200PE , @ 721.05, sl=731.05,tp=692.05, tsl start=716.05, small=-1.4983764955926517,long=22.07525735093543
+09/05/2024 13:24:15 TSL level hit sell = 716.05 new sl = 726.05 
+09/05/2024 13:25:27 TSL level hit sell = 711.05 new sl = 721.05 
+09/05/2024 13:25:42 TSL level hit buy = 195.95 new sl = 185.95 
+09/05/2024 13:25:42 TSL level hit sell = 706.05 new sl = 716.05 
+09/05/2024 13:25:55 TSL level hit sell = 701.05 new sl = 711.05 
+09/05/2024 13:26:01 TSL level hit sell = 696.05 new sl = 706.05 
+09/05/2024 13:26:19 TSL level hit buy = 200.95 new sl = 190.95 
+09/05/2024 13:26:20 Short exit  @ BANKNIFTY15MAY2448200PE target executed @ 684.3
+09/05/2024 13:26:20 TSL level hit sell = 691.05 new sl = 701.05 
+09/05/2024 13:26:24 Short order executed @ BANKNIFTY15MAY2448200PE , @ 686.75, sl=696.75,tp=657.75, tsl start=681.75, small=-13.043547061949084,long=20.35457162697071
+09/05/2024 13:27:08 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 699.55
+09/05/2024 13:27:11 Short order executed @ BANKNIFTY15MAY2448200PE , @ 702.6, sl=712.6,tp=673.6, tsl start=697.6, small=-9.69677353097461,long=18.470816764518077
+09/05/2024 13:27:23 TSL level hit sell = 697.6 new sl = 707.6 
+09/05/2024 13:27:38 TSL level hit sell = 692.6 new sl = 702.6 
+09/05/2024 13:27:54 TSL level hit sell = 687.6 new sl = 697.6 
+09/05/2024 13:27:57 TSL level hit sell = 682.6 new sl = 692.6 
+09/05/2024 13:27:59 TSL level hit sell = 677.6 new sl = 687.6 
+09/05/2024 13:28:04 TSL level hit buy = 205.95 new sl = 195.95 
+09/05/2024 13:28:05 Short exit  @ BANKNIFTY15MAY2448200PE target executed @ 672.5
+09/05/2024 13:28:05 TSL level hit sell = 672.6 new sl = 682.6 
+09/05/2024 13:28:09 Short order executed @ BANKNIFTY15MAY2448200PE , @ 671.25, sl=681.25,tp=642.25, tsl start=666.25, small=-11.898386765487317,long=15.974403091314116
+09/05/2024 13:28:26 TSL level hit sell = 666.25 new sl = 676.25 
+09/05/2024 13:28:41 TSL level hit sell = 661.25 new sl = 671.25 
+09/05/2024 13:28:54 TSL level hit buy = 210.95 new sl = 200.95 
+09/05/2024 13:29:04 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 672.45
+09/05/2024 13:29:08 Short order executed @ BANKNIFTY15MAY2448200PE , @ 669.95, sl=679.95,tp=640.95, tsl start=664.95, small=-10.224193382743579,long=13.265664770008698
+09/05/2024 13:29:37 TSL level hit sell = 664.95 new sl = 674.95 
+09/05/2024 13:29:46 TSL level hit sell = 659.95 new sl = 669.95 
+09/05/2024 13:30:06 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 670.7
+09/05/2024 13:30:10 Short order executed @ BANKNIFTY15MAY2448200PE , @ 671.6, sl=681.6,tp=642.6, tsl start=666.6, small=-5.737096691371789,long=10.791436911731012
+09/05/2024 13:30:29 TSL level hit sell = 666.6 new sl = 676.6 
+09/05/2024 13:31:07 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 678.95
+09/05/2024 13:31:27 TSL level hit buy = 215.95 new sl = 205.95 
+09/05/2024 13:32:01 Short order executed @ BANKNIFTY15MAY2448200PE , @ 668.5, sl=678.5,tp=639.5, tsl start=663.5, small=-0.9717741728429701,long=7.491835642579076
+09/05/2024 13:32:56 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 679.25
+09/05/2024 13:32:59 Short order executed @ BANKNIFTY15MAY2448200PE , @ 679.15, sl=689.15,tp=650.15, tsl start=674.15, small=-0.9717741728429701,long=7.491835642579076
+09/05/2024 13:33:13 Buy exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 205.0
+09/05/2024 13:33:23 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 690.65
+09/05/2024 13:34:00 Short order executed @ BANKNIFTY15MAY2448200PE , @ 675.9, sl=685.9,tp=646.9, tsl start=670.9, small=-0.2304435432107539,long=5.316773839267057
+09/05/2024 13:34:04 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 211.6, sl=201.6,tp=240.6, tsl start=216.6, small=0.07107872953133665,long=-3.0786373073447635
+09/05/2024 13:35:25 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 686.15
+09/05/2024 13:35:30 Short order executed @ BANKNIFTY15MAY2448200PE , @ 682.9, sl=692.9,tp=653.9, tsl start=677.9, small=-0.7152217716053428,long=4.233693061943882
+09/05/2024 13:35:50 TSL level hit sell = 677.9 new sl = 687.9 
+09/05/2024 13:35:55 TSL level hit sell = 672.9 new sl = 682.9 
+09/05/2024 13:37:32 TSL level hit sell = 667.9 new sl = 677.9 
+09/05/2024 13:39:33 TSL level hit sell = 662.9 new sl = 672.9 
+09/05/2024 13:39:47 TSL level hit buy = 216.6 new sl = 206.6 
+09/05/2024 13:39:48 Short exit  @ BANKNIFTY15MAY2448200PE target executed @ 651.5
+09/05/2024 13:39:48 TSL level hit sell = 657.9 new sl = 667.9 
+09/05/2024 13:39:57 TSL level hit buy = 221.6 new sl = 211.6 
+09/05/2024 13:40:00 Buy exit  @ BANKNIFTY15MAY2448200CE long ema turnd positive: 0.008907284247925418
+09/05/2024 13:41:01 Short order executed @ BANKNIFTY15MAY2448200CE , @ 215.3, sl=225.3,tp=186.3, tsl start=210.3, small=-0.1865540724255368,long=0.4520729669328034
+09/05/2024 13:41:02 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 659.25, sl=649.25,tp=688.25, tsl start=664.25, small=0.26773090981862424,long=-2.474529747864949
+09/05/2024 13:41:32 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 649.25
+09/05/2024 13:41:35 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 644.8, sl=634.8,tp=673.8, tsl start=649.8, small=0.26773090981862424,long=-2.474529747864949
+09/05/2024 13:42:10 TSL level hit buy = 649.8 new sl = 639.8 
+09/05/2024 13:42:19 TSL level hit buy = 654.8 new sl = 644.8 
+09/05/2024 13:42:47 TSL level hit buy = 659.8 new sl = 649.8 
+09/05/2024 13:42:52 TSL level hit sell = 210.3 new sl = 220.3 
+09/05/2024 13:42:53 TSL level hit buy = 664.8 new sl = 654.8 
+09/05/2024 13:43:43 TSL level hit buy = 669.8 new sl = 659.8 
+09/05/2024 13:43:52 Buy exit  @ BANKNIFTY15MAY2448200PE target executed @ 674.35
+09/05/2024 13:43:55 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 673.55, sl=663.55,tp=702.55, tsl start=678.55, small=6.441932727454628,long=-4.36409073844959
+09/05/2024 13:45:32 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 662.3
+09/05/2024 13:45:35 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 658.3, sl=648.3,tp=687.3, tsl start=663.3, small=0.5729831818637194,long=-4.488756135715221
+09/05/2024 13:47:02 Short exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 220.35
+09/05/2024 13:47:03 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 642.55
+09/05/2024 13:52:02 Short order executed @ BANKNIFTY15MAY2448200CE , @ 227.85, sl=237.85,tp=198.85, tsl start=222.85, small=-4.6970149189806705,long=7.129598685926084
+09/05/2024 13:52:04 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 619.3, sl=609.3,tp=648.3, tsl start=624.3, small=4.888070181108333,long=-18.430835864497112
+09/05/2024 13:52:09 TSL level hit buy = 624.3 new sl = 614.3 
+09/05/2024 13:53:06 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 611.5
+09/05/2024 13:53:11 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 610.55, sl=600.55,tp=639.55, tsl start=615.55, small=4.869035090554121,long=-19.033944429647022
+09/05/2024 13:53:20 TSL level hit sell = 222.85 new sl = 232.85 
+09/05/2024 13:53:21 TSL level hit buy = 615.55 new sl = 605.55 
+09/05/2024 13:53:26 TSL level hit buy = 620.55 new sl = 610.55 
+09/05/2024 13:53:31 TSL level hit buy = 625.55 new sl = 615.55 
+09/05/2024 13:53:36 TSL level hit buy = 630.55 new sl = 620.55 
+09/05/2024 13:53:39 TSL level hit sell = 217.85 new sl = 227.85 
+09/05/2024 13:53:40 TSL level hit buy = 635.55 new sl = 625.55 
+09/05/2024 13:54:19 Buy exit  @ BANKNIFTY15MAY2448200PE target executed @ 640.25
+09/05/2024 13:54:24 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 635.65, sl=625.65,tp=664.65, tsl start=640.65, small=9.509517545277049,long=-18.694409692425552
+09/05/2024 13:54:28 TSL level hit sell = 212.85 new sl = 222.85 
+09/05/2024 13:54:29 TSL level hit buy = 640.65 new sl = 630.65 
+09/05/2024 13:54:34 TSL level hit buy = 645.65 new sl = 635.65 
+09/05/2024 13:54:39 Buy exit  @ BANKNIFTY15MAY2448200PE target executed @ 665.8
+09/05/2024 13:54:39 TSL level hit buy = 650.65 new sl = 640.65 
+09/05/2024 13:54:43 TSL level hit sell = 207.85 new sl = 217.85 
+09/05/2024 13:54:45 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 683.0, sl=673.0,tp=712.0, tsl start=688.0, small=9.509517545277049,long=-18.694409692425552
+09/05/2024 13:54:49 TSL level hit sell = 202.85 new sl = 212.85 
+09/05/2024 13:54:50 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 668.7
+09/05/2024 13:54:56 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 671.0, sl=661.0,tp=700.0, tsl start=676.0, small=9.509517545277049,long=-18.694409692425552
+09/05/2024 13:56:08 TSL level hit buy = 676.0 new sl = 666.0 
+09/05/2024 13:56:13 TSL level hit buy = 681.0 new sl = 671.0 
+09/05/2024 13:56:18 Short exit  @ BANKNIFTY15MAY2448200CE target executed @ 192.8
+09/05/2024 13:56:18 TSL level hit sell = 197.85 new sl = 207.85 
+09/05/2024 13:56:20 TSL level hit buy = 686.0 new sl = 676.0 
+09/05/2024 13:56:24 Short order executed @ BANKNIFTY15MAY2448200CE , @ 196.35, sl=206.35,tp=167.35, tsl start=191.35, small=-4.252938432436281,long=4.539922448450511
+09/05/2024 13:57:16 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 674.0
+09/05/2024 13:57:21 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 674.75, sl=664.75,tp=703.75, tsl start=679.75, small=11.394939693159586,long=-12.252391749443746
+09/05/2024 13:57:32 TSL level hit buy = 679.75 new sl = 669.75 
+09/05/2024 13:57:45 TSL level hit buy = 684.75 new sl = 674.75 
+09/05/2024 13:57:50 TSL level hit buy = 689.75 new sl = 679.75 
+09/05/2024 13:58:05 TSL level hit buy = 694.75 new sl = 684.75 
+09/05/2024 13:58:44 TSL level hit sell = 191.35 new sl = 201.35 
+09/05/2024 13:58:45 TSL level hit buy = 699.75 new sl = 689.75 
+09/05/2024 13:59:28 Buy exit  @ BANKNIFTY15MAY2448200PE target executed @ 710.0
+09/05/2024 13:59:28 TSL level hit buy = 704.75 new sl = 694.75 
+09/05/2024 13:59:33 TSL level hit sell = 186.35 new sl = 196.35 
+09/05/2024 13:59:34 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 710.05, sl=700.05,tp=739.05, tsl start=715.05, small=9.048734923289885,long=-7.150151015317988
+09/05/2024 14:00:02 Short exit  @ BANKNIFTY15MAY2448200CE long ema turnd negative: -0.6602194987370353
+09/05/2024 14:00:23 TSL level hit buy = 715.05 new sl = 705.05 
+09/05/2024 14:00:41 TSL level hit buy = 720.05 new sl = 710.05 
+09/05/2024 14:01:11 TSL level hit buy = 725.05 new sl = 715.05 
+09/05/2024 14:01:24 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 715.0
+09/05/2024 14:01:30 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 711.7, sl=701.7,tp=740.7, tsl start=716.7, small=12.924683730822494,long=-0.1525618295811455
+09/05/2024 14:02:02 TSL level hit buy = 716.7 new sl = 706.7 
+09/05/2024 14:02:02 Buy exit  @ BANKNIFTY15MAY2448200PE long ema turnd positive: 2.4041399770871976
+09/05/2024 14:04:00 Short order executed @ BANKNIFTY15MAY2448200PE , @ 705.75, sl=715.75,tp=676.75, tsl start=700.75, small=-14.965664533647214,long=8.806826509559755
+09/05/2024 14:04:04 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 188.25, sl=178.25,tp=217.25, tsl start=193.25, small=3.804871334248304,long=-5.682616516785885
+09/05/2024 14:04:10 TSL level hit sell = 700.75 new sl = 710.75 
+09/05/2024 14:04:23 TSL level hit buy = 193.25 new sl = 183.25 
+09/05/2024 14:04:43 TSL level hit sell = 695.75 new sl = 705.75 
+09/05/2024 14:04:53 TSL level hit sell = 690.75 new sl = 700.75 
+09/05/2024 14:04:58 TSL level hit sell = 685.75 new sl = 695.75 
+09/05/2024 14:05:13 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 697.25
+09/05/2024 14:05:19 Short order executed @ BANKNIFTY15MAY2448200PE , @ 687.7, sl=697.7,tp=658.7, tsl start=682.7, small=-23.282832266823675,long=8.105531004057298
+09/05/2024 14:05:29 TSL level hit sell = 682.7 new sl = 692.7 
+09/05/2024 14:06:01 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 697.25
+09/05/2024 14:06:07 Short order executed @ BANKNIFTY15MAY2448200PE , @ 697.2, sl=707.2,tp=668.2, tsl start=692.2, small=-3.566416133411849,long=8.370397260229879
+09/05/2024 14:06:46 TSL level hit sell = 692.2 new sl = 702.2 
+09/05/2024 14:06:50 TSL level hit sell = 687.2 new sl = 697.2 
+09/05/2024 14:06:54 TSL level hit sell = 682.2 new sl = 692.2 
+09/05/2024 14:06:58 TSL level hit buy = 198.25 new sl = 188.25 
+09/05/2024 14:06:59 TSL level hit sell = 677.2 new sl = 687.2 
+09/05/2024 14:07:42 TSL level hit sell = 672.2 new sl = 682.2 
+09/05/2024 14:07:47 Short exit  @ BANKNIFTY15MAY2448200PE target executed @ 667.75
+09/05/2024 14:07:53 Short order executed @ BANKNIFTY15MAY2448200PE , @ 661.15, sl=671.15,tp=632.15, tsl start=656.15, small=-10.283208066705924,long=7.6169975360990065
+09/05/2024 14:08:02 TSL level hit buy = 203.25 new sl = 193.25 
+09/05/2024 14:08:41 TSL level hit sell = 656.15 new sl = 666.15 
+09/05/2024 14:08:45 TSL level hit buy = 208.25 new sl = 198.25 
+09/05/2024 14:08:46 TSL level hit sell = 651.15 new sl = 661.15 
+09/05/2024 14:08:55 TSL level hit sell = 646.15 new sl = 656.15 
+09/05/2024 14:09:28 TSL level hit sell = 641.15 new sl = 651.15 
+09/05/2024 14:09:41 TSL level hit buy = 213.25 new sl = 203.25 
+09/05/2024 14:09:42 Short exit  @ BANKNIFTY15MAY2448200PE target executed @ 632.1
+09/05/2024 14:09:42 TSL level hit sell = 636.15 new sl = 646.15 
+09/05/2024 14:09:47 Short order executed @ BANKNIFTY15MAY2448200PE , @ 626.5, sl=636.5,tp=597.5, tsl start=621.5, small=-13.233302016676475,long=4.158933946568595
+09/05/2024 14:09:56 Buy exit  @ BANKNIFTY15MAY2448200CE target executed @ 219.25
+09/05/2024 14:09:56 TSL level hit buy = 218.25 new sl = 208.25 
+09/05/2024 14:10:01 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 217.85, sl=207.85,tp=246.85, tsl start=222.85, small=6.281326114597647,long=-3.7880131639867045
+09/05/2024 14:10:12 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 640.35
+09/05/2024 14:10:17 Short order executed @ BANKNIFTY15MAY2448200PE , @ 642.65, sl=652.65,tp=613.65, tsl start=637.65, small=-14.966651008338204,long=1.4070084799989218
+09/05/2024 14:10:42 TSL level hit sell = 637.65 new sl = 647.65 
+09/05/2024 14:11:01 Short exit  @ BANKNIFTY15MAY2448200PE long ema turnd negative: -0.6375019245728026
+09/05/2024 14:12:01 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 645.9, sl=635.9,tp=674.9, tsl start=650.9, small=2.0583372479154605,long=-1.9389857517978726
+09/05/2024 14:12:15 TSL level hit buy = 650.9 new sl = 640.9 
+09/05/2024 14:12:30 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 640.0
+09/05/2024 14:12:35 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 639.0, sl=629.0,tp=668.0, tsl start=644.0, small=2.0583372479154605,long=-1.9389857517978726
+09/05/2024 14:12:59 TSL level hit buy = 644.0 new sl = 634.0 
+09/05/2024 14:14:03 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 634.0
+09/05/2024 14:14:15 TSL level hit buy = 222.85 new sl = 212.85 
+09/05/2024 14:16:02 Buy exit  @ BANKNIFTY15MAY2448200CE long ema turnd positive: 0.2708539070772815
+09/05/2024 14:17:02 Short order executed @ BANKNIFTY15MAY2448200CE , @ 211.6, sl=221.6,tp=182.6, tsl start=206.6, small=-4.68491151472972,long=0.2888955153097754
+09/05/2024 14:17:04 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 644.25, sl=634.25,tp=673.25, tsl start=649.25, small=8.611198038997372,long=-8.280637714979207
+09/05/2024 14:17:08 TSL level hit sell = 206.6 new sl = 216.6 
+09/05/2024 14:17:09 TSL level hit buy = 649.25 new sl = 639.25 
+09/05/2024 14:17:14 TSL level hit buy = 654.25 new sl = 644.25 
+09/05/2024 14:17:29 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 644.25
+09/05/2024 14:17:34 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 643.8, sl=633.8,tp=672.8, tsl start=648.8, small=8.611198038997372,long=-8.280637714979207
+09/05/2024 14:18:12 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 631.9
+09/05/2024 14:19:01 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 638.9, sl=628.9,tp=667.9, tsl start=643.9, small=1.027799509749343,long=-9.508278487286589
+09/05/2024 14:19:11 TSL level hit buy = 643.9 new sl = 633.9 
+09/05/2024 14:19:34 TSL level hit buy = 648.9 new sl = 638.9 
+09/05/2024 14:20:37 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 635.4
+09/05/2024 14:20:43 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 637.85, sl=627.85,tp=666.85, tsl start=642.85, small=2.7638997548747284,long=-9.610015215933345
+09/05/2024 14:21:06 TSL level hit buy = 642.85 new sl = 632.85 
+09/05/2024 14:21:20 TSL level hit buy = 647.85 new sl = 637.85 
+09/05/2024 14:21:42 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 634.4
+09/05/2024 14:21:47 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 640.95, sl=630.95,tp=669.95, tsl start=645.95, small=0.331949877437296,long=-9.780208337788054
+09/05/2024 14:22:29 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 630.05
+09/05/2024 14:22:34 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 629.05, sl=619.05,tp=658.05, tsl start=634.05, small=0.5909749387186594,long=-9.844007556364886
+09/05/2024 14:22:52 Short exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 216.6
+09/05/2024 14:22:57 Short order executed @ BANKNIFTY15MAY2448200CE , @ 214.9, sl=224.9,tp=185.9, tsl start=209.9, small=-0.6057784848352981,long=0.5049142061831162
+09/05/2024 14:23:37 TSL level hit buy = 634.05 new sl = 624.05 
+09/05/2024 14:24:04 TSL level hit sell = 209.9 new sl = 219.9 
+09/05/2024 14:24:06 TSL level hit buy = 639.05 new sl = 629.05 
+09/05/2024 14:24:20 TSL level hit buy = 644.05 new sl = 634.05 
+09/05/2024 14:24:33 TSL level hit sell = 204.9 new sl = 214.9 
+09/05/2024 14:24:34 TSL level hit buy = 649.05 new sl = 639.05 
+09/05/2024 14:24:41 TSL level hit buy = 654.05 new sl = 644.05 
+09/05/2024 14:24:43 TSL level hit sell = 199.9 new sl = 209.9 
+09/05/2024 14:24:47 Buy exit  @ BANKNIFTY15MAY2448200PE target executed @ 659.6
+09/05/2024 14:24:47 TSL level hit buy = 659.05 new sl = 649.05 
+09/05/2024 14:24:50 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 663.55, sl=653.55,tp=692.55, tsl start=668.55, small=1.285243734679625,long=-10.90425850997758
+09/05/2024 14:24:53 TSL level hit sell = 194.9 new sl = 204.9 
+09/05/2024 14:25:12 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 652.05
+09/05/2024 14:25:15 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 653.35, sl=643.35,tp=682.35, tsl start=658.35, small=12.367621867339835,long=-9.697940559955327
+09/05/2024 14:25:41 TSL level hit buy = 658.35 new sl = 648.35 
+09/05/2024 14:25:58 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 647.0
+09/05/2024 14:26:01 Short exit  @ BANKNIFTY15MAY2448200CE long ema turnd negative: -0.21297242114439996
+09/05/2024 14:26:02 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 649.65, sl=639.65,tp=678.65, tsl start=654.65, small=0.18381093366997447,long=-9.28536000560382
+09/05/2024 14:26:45 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 637.65
+09/05/2024 14:26:48 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 639.0, sl=629.0,tp=668.0, tsl start=644.0, small=0.18381093366997447,long=-9.28536000560382
+09/05/2024 14:27:03 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 205.5, sl=195.5,tp=234.5, tsl start=210.5, small=0.8716944223488952,long=-0.36157476924654475
+09/05/2024 14:27:24 TSL level hit buy = 644.0 new sl = 634.0 
+09/05/2024 14:27:26 TSL level hit buy = 649.0 new sl = 639.0 
+09/05/2024 14:27:38 TSL level hit buy = 654.0 new sl = 644.0 
+09/05/2024 14:27:49 Buy exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 194.9
+09/05/2024 14:27:50 TSL level hit buy = 659.0 new sl = 649.0 
+09/05/2024 14:27:52 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 193.7, sl=183.7,tp=222.7, tsl start=198.7, small=0.8716944223488952,long=-0.36157476924654475
+09/05/2024 14:28:07 TSL level hit buy = 664.0 new sl = 654.0 
+09/05/2024 14:28:10 Buy exit  @ BANKNIFTY15MAY2448200PE target executed @ 669.5
+09/05/2024 14:28:10 TSL level hit buy = 669.0 new sl = 659.0 
+09/05/2024 14:28:13 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 670.0, sl=660.0,tp=699.0, tsl start=675.0, small=7.145952733417516,long=-8.203349121390374
+09/05/2024 14:28:24 TSL level hit buy = 675.0 new sl = 665.0 
+09/05/2024 14:28:26 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 663.25
+09/05/2024 14:28:30 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 666.4, sl=656.4,tp=695.4, tsl start=671.4, small=7.145952733417516,long=-8.203349121390374
+09/05/2024 14:30:19 TSL level hit buy = 671.4 new sl = 661.4 
+09/05/2024 14:31:42 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 660.05
+09/05/2024 14:31:46 Buy order executed @ BANKNIFTY15MAY2448200PE , @ 662.7, sl=652.7,tp=691.7, tsl start=667.7, small=2.180744091677184,long=-5.1711349388674535
+09/05/2024 14:32:12 TSL level hit buy = 667.7 new sl = 657.7 
+09/05/2024 14:32:18 TSL level hit buy = 672.7 new sl = 662.7 
+09/05/2024 14:32:56 TSL level hit buy = 677.7 new sl = 667.7 
+09/05/2024 14:33:07 TSL level hit buy = 682.7 new sl = 672.7 
+09/05/2024 14:35:14 Buy exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 671.0
+09/05/2024 14:36:34 Buy exit  @ NIFTY16MAY2422300CE stoploss executed @ 70.4
+09/05/2024 14:36:35 Buy exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 183.65
+09/05/2024 14:36:38 Buy order executed @ NIFTY16MAY2422300CE , @ 70.2, sl=60.2,tp=99.2, tsl start=75.2, small=0.3159401244706572,long=-1.8824577992252216
+09/05/2024 14:43:01 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 172.35, sl=162.35,tp=201.35, tsl start=177.35, small=0.57775530539584,long=-10.267369089290128
+09/05/2024 14:44:02 Buy exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 158.2
+09/05/2024 14:47:01 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 165.1, sl=155.1,tp=194.1, tsl start=170.1, small=2.0548597065872514,long=-13.237573192740314
+09/05/2024 14:47:03 Short order executed @ BANKNIFTY15MAY2448200PE , @ 765.15, sl=775.15,tp=736.15, tsl start=760.15, small=-12.054914386839528,long=30.53553056270448
+09/05/2024 14:47:29 TSL level hit sell = 760.15 new sl = 770.15 
+09/05/2024 14:47:40 TSL level hit sell = 755.15 new sl = 765.15 
+09/05/2024 14:47:51 TSL level hit buy = 170.1 new sl = 160.1 
+09/05/2024 14:47:52 TSL level hit sell = 750.15 new sl = 760.15 
+09/05/2024 14:48:00 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 760.8
+09/05/2024 14:48:04 Short order executed @ BANKNIFTY15MAY2448200PE , @ 762.1, sl=772.1,tp=733.1, tsl start=757.1, small=-7.402457193419764,long=31.559858569538733
+09/05/2024 14:48:08 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 773.3
+09/05/2024 14:48:12 Short order executed @ BANKNIFTY15MAY2448200PE , @ 771.95, sl=781.95,tp=742.95, tsl start=766.95, small=-7.402457193419764,long=31.559858569538733
+09/05/2024 14:48:25 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 786.45
+09/05/2024 14:48:28 Short order executed @ BANKNIFTY15MAY2448200PE , @ 796.0, sl=806.0,tp=767.0, tsl start=791.0, small=-7.402457193419764,long=31.559858569538733
+09/05/2024 14:48:35 Buy exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 159.75
+09/05/2024 14:48:38 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 160.0, sl=150.0,tp=189.0, tsl start=165.0, small=2.00242985329362,long=-13.33000256577347
+09/05/2024 14:48:48 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 812.1
+09/05/2024 14:48:51 Short order executed @ BANKNIFTY15MAY2448200PE , @ 808.4, sl=818.4,tp=779.4, tsl start=803.4, small=-7.402457193419764,long=31.559858569538733
+09/05/2024 14:49:02 TSL level hit sell = 803.4 new sl = 813.4 
+09/05/2024 14:49:39 TSL level hit sell = 798.4 new sl = 808.4 
+09/05/2024 14:49:42 TSL level hit sell = 793.4 new sl = 803.4 
+09/05/2024 14:49:48 TSL level hit sell = 788.4 new sl = 798.4 
+09/05/2024 14:50:00 TSL level hit sell = 783.4 new sl = 793.4 
+09/05/2024 14:50:07 TSL level hit buy = 165.0 new sl = 155.0 
+09/05/2024 14:50:08 Short exit  @ BANKNIFTY15MAY2448200PE target executed @ 775.35
+09/05/2024 14:50:08 TSL level hit sell = 778.4 new sl = 788.4 
+09/05/2024 14:50:12 Short order executed @ BANKNIFTY15MAY2448200PE , @ 767.25, sl=777.25,tp=738.25, tsl start=762.25, small=-2.3256142983549353,long=36.99167454314136
+09/05/2024 14:50:41 TSL level hit sell = 762.25 new sl = 772.25 
+09/05/2024 14:50:54 TSL level hit sell = 757.25 new sl = 767.25 
+09/05/2024 14:50:56 TSL level hit buy = 170.0 new sl = 160.0 
+09/05/2024 14:51:00 TSL level hit sell = 752.25 new sl = 762.25 
+09/05/2024 14:51:03 TSL level hit sell = 747.25 new sl = 757.25 
+09/05/2024 14:51:10 TSL level hit sell = 742.25 new sl = 752.25 
+09/05/2024 14:51:25 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 754.15
+09/05/2024 14:51:28 Short order executed @ BANKNIFTY15MAY2448200PE , @ 756.85, sl=766.85,tp=727.85, tsl start=751.85, small=-21.687807149177388,long=35.954764050084464
+09/05/2024 14:52:00 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 769.25
+09/05/2024 14:52:52 TSL level hit buy = 175.0 new sl = 165.0 
+09/05/2024 14:53:02 Short order executed @ BANKNIFTY15MAY2448200PE , @ 731.25, sl=741.25,tp=702.25, tsl start=726.25, small=-16.359451787294347,long=34.44158597343983
+09/05/2024 14:53:13 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 744.6
+09/05/2024 14:53:17 Short order executed @ BANKNIFTY15MAY2448200PE , @ 745.0, sl=755.0,tp=716.0, tsl start=740.0, small=-16.359451787294347,long=34.44158597343983
+09/05/2024 14:54:12 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 755.7
+09/05/2024 14:54:34 Buy exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 164.35
+09/05/2024 14:56:01 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 169.95, sl=159.95,tp=198.95, tsl start=174.95, small=0.8529391791144292,long=-12.067895408861034
+09/05/2024 14:56:02 Short order executed @ BANKNIFTY15MAY2448200PE , @ 755.05, sl=765.05,tp=726.05, tsl start=750.05, small=-0.8011814734118161,long=33.111979683960385
+09/05/2024 14:56:08 TSL level hit sell = 750.05 new sl = 760.05 
+09/05/2024 14:56:14 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 760.7
+09/05/2024 14:56:17 Short order executed @ BANKNIFTY15MAY2448200PE , @ 761.1, sl=771.1,tp=732.1, tsl start=756.1, small=-0.8011814734118161,long=33.111979683960385
+09/05/2024 14:56:48 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 771.5
+09/05/2024 14:56:51 Short order executed @ BANKNIFTY15MAY2448200PE , @ 774.85, sl=784.85,tp=745.85, tsl start=769.85, small=-0.8011814734118161,long=33.111979683960385
+09/05/2024 14:56:58 TSL level hit sell = 769.85 new sl = 779.85 
+09/05/2024 14:57:28 TSL level hit sell = 764.85 new sl = 774.85 
+09/05/2024 14:58:12 TSL level hit sell = 759.85 new sl = 769.85 
+09/05/2024 14:58:26 TSL level hit sell = 754.85 new sl = 764.85 
+09/05/2024 14:58:38 TSL level hit sell = 749.85 new sl = 759.85 
+09/05/2024 14:58:49 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 763.1
+09/05/2024 14:58:54 Short order executed @ BANKNIFTY15MAY2448200PE , @ 761.9, sl=771.9,tp=732.9, tsl start=756.9, small=-2.825295368352954,long=32.61877790419908
+09/05/2024 14:59:03 TSL level hit sell = 756.9 new sl = 766.9 
+09/05/2024 14:59:14 TSL level hit sell = 751.9 new sl = 761.9 
+09/05/2024 14:59:28 TSL level hit sell = 746.9 new sl = 756.9 
+09/05/2024 14:59:34 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 758.9
+09/05/2024 15:00:02 Short order executed @ BANKNIFTY15MAY2448200PE , @ 755.55, sl=765.55,tp=726.55, tsl start=750.55, small=-3.69382384208825,long=31.081637981306358
+09/05/2024 15:00:16 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 771.2
+09/05/2024 15:00:19 Short order executed @ BANKNIFTY15MAY2448200PE , @ 768.9, sl=778.9,tp=739.9, tsl start=763.9, small=-3.69382384208825,long=31.081637981306358
+09/05/2024 15:00:22 TSL level hit sell = 763.9 new sl = 773.9 
+09/05/2024 15:00:39 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 776.95
+09/05/2024 15:00:42 Short order executed @ BANKNIFTY15MAY2448200PE , @ 780.35, sl=790.35,tp=751.35, tsl start=775.35, small=-3.69382384208825,long=31.081637981306358
+09/05/2024 15:01:07 TSL level hit sell = 775.35 new sl = 785.35 
+09/05/2024 15:01:41 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 785.95
+09/05/2024 15:01:51 Buy exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 158.6
+09/05/2024 15:05:00 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 157.75, sl=147.75,tp=186.75, tsl start=162.75, small=1.1201229280841858,long=-12.207935376678819
+09/05/2024 15:05:02 Short order executed @ BANKNIFTY15MAY2448200PE , @ 792.75, sl=802.75,tp=763.75, tsl start=787.75, small=-10.877931995065296,long=37.808276420423226
+09/05/2024 15:05:05 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 806.5
+09/05/2024 15:05:10 Short order executed @ BANKNIFTY15MAY2448200PE , @ 807.8, sl=817.8,tp=778.8, tsl start=802.8, small=-10.877931995065296,long=37.808276420423226
+09/05/2024 15:05:16 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 825.0
+09/05/2024 15:05:19 Short order executed @ BANKNIFTY15MAY2448200PE , @ 825.85, sl=835.85,tp=796.85, tsl start=820.85, small=-10.877931995065296,long=37.808276420423226
+09/05/2024 15:05:26 TSL level hit sell = 820.85 new sl = 830.85 
+09/05/2024 15:05:33 Buy exit  @ NIFTY16MAY2422300CE stoploss executed @ 60.0
+09/05/2024 15:05:44 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 831.05
+09/05/2024 15:05:47 Short order executed @ BANKNIFTY15MAY2448200PE , @ 828.15, sl=838.15,tp=799.15, tsl start=823.15, small=-10.877931995065296,long=37.808276420423226
+09/05/2024 15:05:51 TSL level hit sell = 823.15 new sl = 833.15 
+09/05/2024 15:06:00 TSL level hit sell = 818.15 new sl = 828.15 
+09/05/2024 15:06:06 TSL level hit sell = 813.15 new sl = 823.15 
+09/05/2024 15:06:18 TSL level hit sell = 808.15 new sl = 818.15 
+09/05/2024 15:06:57 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 819.95
+09/05/2024 15:07:00 Buy order executed @ NIFTY16MAY2422300CE , @ 62.5, sl=52.5,tp=91.5, tsl start=67.5, small=0.24974385784749842,long=-3.56047093151615
+09/05/2024 15:10:01 Short order executed @ BANKNIFTY15MAY2448200PE , @ 821.65, sl=831.65,tp=792.65, tsl start=816.65, small=-2.319622874845777,long=41.495549420357634
+09/05/2024 15:10:19 TSL level hit sell = 816.65 new sl = 826.65 
+09/05/2024 15:12:01 TSL level hit sell = 811.65 new sl = 821.65 
+09/05/2024 15:12:05 TSL level hit sell = 806.65 new sl = 816.65 
+09/05/2024 15:12:08 TSL level hit sell = 801.65 new sl = 811.65 
+09/05/2024 15:12:11 TSL level hit sell = 796.65 new sl = 806.65 
+09/05/2024 15:12:15 Short exit  @ BANKNIFTY15MAY2448200PE target executed @ 785.3
+09/05/2024 15:12:15 TSL level hit sell = 791.65 new sl = 801.65 
+09/05/2024 15:12:18 Short order executed @ BANKNIFTY15MAY2448200PE , @ 785.5, sl=795.5,tp=756.5, tsl start=780.5, small=-7.304905718711439,long=40.59010996726931
+09/05/2024 15:12:22 TSL level hit sell = 780.5 new sl = 790.5 
+09/05/2024 15:12:45 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 792.3
+09/05/2024 15:12:48 Short order executed @ BANKNIFTY15MAY2448200PE , @ 791.15, sl=801.15,tp=762.15, tsl start=786.15, small=-7.304905718711439,long=40.59010996726931
+09/05/2024 15:12:57 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 801.7
+09/05/2024 15:13:01 Short order executed @ BANKNIFTY15MAY2448200PE , @ 802.45, sl=812.45,tp=773.45, tsl start=797.45, small=-6.902452859355662,long=39.27673247484927
+09/05/2024 15:13:30 TSL level hit sell = 797.45 new sl = 807.45 
+09/05/2024 15:13:55 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 808.0
+09/05/2024 15:13:58 Short order executed @ BANKNIFTY15MAY2448200PE , @ 806.1, sl=816.1,tp=777.1, tsl start=801.1, small=-6.902452859355662,long=39.27673247484927
+09/05/2024 15:14:13 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 819.3
+09/05/2024 15:14:17 Short order executed @ BANKNIFTY15MAY2448200PE , @ 825.0, sl=835.0,tp=796.0, tsl start=820.0, small=-2.226226429677922,long=38.12560140543519
+09/05/2024 15:14:20 TSL level hit sell = 820.0 new sl = 830.0 
+09/05/2024 15:14:39 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 831.0
+09/05/2024 15:14:42 Buy exit  @ BANKNIFTY15MAY2448200CE stoploss executed @ 146.5
+09/05/2024 15:14:43 Short order executed @ BANKNIFTY15MAY2448200PE , @ 835.0, sl=845.0,tp=806.0, tsl start=830.0, small=-2.226226429677922,long=38.12560140543519
+09/05/2024 15:15:02 TSL level hit sell = 830.0 new sl = 840.0 
+09/05/2024 15:15:04 TSL level hit sell = 825.0 new sl = 835.0 
+09/05/2024 15:15:07 TSL level hit sell = 820.0 new sl = 830.0 
+09/05/2024 15:15:14 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 830.7
+09/05/2024 15:16:00 Buy order executed @ BANKNIFTY15MAY2448200CE , @ 151.05, sl=141.05,tp=180.05, tsl start=156.05, small=0.22127447408598755,long=-11.63879563593639
+09/05/2024 15:17:24 TSL level hit buy = 156.05 new sl = 146.05 
+09/05/2024 15:18:02 Short order executed @ BANKNIFTY15MAY2448200PE , @ 809.65, sl=819.65,tp=780.65, tsl start=804.65, small=-8.939139151854874,long=37.39868534365337
+09/05/2024 15:19:24 TSL level hit sell = 804.65 new sl = 814.65 
+09/05/2024 15:19:41 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 814.8
+09/05/2024 15:19:44 Short order executed @ BANKNIFTY15MAY2448200PE , @ 809.9, sl=819.9,tp=780.9, tsl start=804.9, small=-0.9945695759274713,long=36.50010724442711
+09/05/2024 15:20:02 TSL level hit sell = 804.9 new sl = 814.9 
+09/05/2024 15:20:12 TSL level hit sell = 799.9 new sl = 809.9 
+09/05/2024 15:20:14 TSL level hit buy = 161.05 new sl = 151.05 
+09/05/2024 15:20:15 TSL level hit sell = 794.9 new sl = 804.9 
+09/05/2024 15:20:21 TSL level hit sell = 789.9 new sl = 799.9 
+09/05/2024 15:20:24 Short exit  @ BANKNIFTY15MAY2448200PE target executed @ 780.0
+09/05/2024 15:20:24 TSL level hit sell = 784.9 new sl = 794.9 
+09/05/2024 15:20:29 Short order executed @ BANKNIFTY15MAY2448200PE , @ 781.6, sl=791.6,tp=752.6, tsl start=776.6, small=-4.42228478796369,long=35.142892828594086
+09/05/2024 15:20:37 TSL level hit sell = 776.6 new sl = 786.6 
+09/05/2024 15:21:17 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 788.65
+09/05/2024 15:21:21 Short order executed @ BANKNIFTY15MAY2448200PE , @ 792.55, sl=802.55,tp=763.55, tsl start=787.55, small=-17.136142393981913,long=32.15957052004592
+09/05/2024 15:21:39 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 811.15
+09/05/2024 15:21:42 Short order executed @ BANKNIFTY15MAY2448200PE , @ 806.7, sl=816.7,tp=777.7, tsl start=801.7, small=-17.136142393981913,long=32.15957052004592
+09/05/2024 15:23:09 TSL level hit sell = 801.7 new sl = 811.7 
+09/05/2024 15:23:23 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 811.75
+09/05/2024 15:23:26 Short order executed @ BANKNIFTY15MAY2448200PE , @ 812.0, sl=822.0,tp=783.0, tsl start=807.0, small=-0.621535598495484,long=29.931411212678427
+09/05/2024 15:25:05 TSL level hit sell = 807.0 new sl = 817.0 
+09/05/2024 15:25:19 TSL level hit sell = 802.0 new sl = 812.0 
+09/05/2024 15:25:25 TSL level hit sell = 797.0 new sl = 807.0 
+09/05/2024 15:26:37 TSL level hit sell = 792.0 new sl = 802.0 
+09/05/2024 15:27:11 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 802.25
+09/05/2024 15:27:14 Short order executed @ BANKNIFTY15MAY2448200PE , @ 802.2, sl=812.2,tp=773.2, tsl start=797.2, small=-5.282595974905917,long=24.983791328823827
+09/05/2024 15:28:36 Short exit  @ BANKNIFTY15MAY2448200PE stoploss executed @ 813.65

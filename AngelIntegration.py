@@ -1,5 +1,6 @@
 import datetime
-
+from SmartApi.smartExceptions import DataException
+import SmartApi
 import pandas as pd
 import requests
 from SmartApi import SmartConnect #or from SmartApi.smartConnect import SmartConnect
@@ -101,11 +102,14 @@ def buy(symbol,token,quantity,exchange):
         # Method 1: Place an order and return the order ID
         orderid = smartApi.placeOrder(orderparams)
         logger.info(f"PlaceOrder : {orderid}")
-        # Method 2: Place an order and return the full response
-        response = smartApi.placeOrderFullResponse(orderparams)
-        logger.info(f"PlaceOrder : {response}")
+        print(orderid)
     except Exception as e:
         logger.exception(f"Order placement failed: {e}")
+        print(e)
+    except SmartApi.smartExceptions.DataException as e:
+        print("error",e)
+        logger.error(f"Order placement failed: {e}")
+        print(e)
 
 def sell(symbol,token,quantity,exchange):
     try:
@@ -126,11 +130,15 @@ def sell(symbol,token,quantity,exchange):
         # Method 1: Place an order and return the order ID
         orderid = smartApi.placeOrder(orderparams)
         logger.info(f"PlaceOrder : {orderid}")
-        # Method 2: Place an order and return the full response
-        response = smartApi.placeOrderFullResponse(orderparams)
-        logger.info(f"PlaceOrder : {response}")
+        print(orderid)
     except Exception as e:
         logger.exception(f"Order placement failed: {e}")
+        print(e)
+    except SmartApi.smartExceptions.DataException as e:
+        print("error", e)
+        logger.error(f"Order placement failed: {e}")
+        print(e)
+
 
 def SHORT(symbol,token,quantity,exchange):
     try:
@@ -138,7 +146,7 @@ def SHORT(symbol,token,quantity,exchange):
             "variety": "NORMAL",
             "tradingsymbol": symbol,
             "symboltoken": token,
-            "transactiontype": "SHORT",
+            "transactiontype": "SELL",
             "exchange": exchange,
             "ordertype": "MARKET",
             "producttype": "INTRADAY",
@@ -151,11 +159,15 @@ def SHORT(symbol,token,quantity,exchange):
         # Method 1: Place an order and return the order ID
         orderid = smartApi.placeOrder(orderparams)
         logger.info(f"PlaceOrder : {orderid}")
-        # Method 2: Place an order and return the full response
-        response = smartApi.placeOrderFullResponse(orderparams)
-        logger.info(f"PlaceOrder : {response}")
+        print(orderid)
     except Exception as e:
         logger.exception(f"Order placement failed: {e}")
+        print(e)
+    except SmartApi.smartExceptions.DataException as e:
+        print("error", e)
+        logger.error(f"Order placement failed: {e}")
+        print(e)
+
 
 def cover(symbol,token,quantity,exchange):
     try:
@@ -163,7 +175,7 @@ def cover(symbol,token,quantity,exchange):
             "variety": "NORMAL",
             "tradingsymbol": symbol,
             "symboltoken": token,
-            "transactiontype": "COVER",
+            "transactiontype": "BUY",
             "exchange": exchange,
             "ordertype": "MARKET",
             "producttype": "INTRADAY",
@@ -173,11 +185,14 @@ def cover(symbol,token,quantity,exchange):
             "stoploss": "0",
             "quantity": quantity
         }
-        # Method 1: Place an order and return the order ID
+        # # Method 1: Place an order and return the order ID
         orderid = smartApi.placeOrder(orderparams)
         logger.info(f"PlaceOrder : {orderid}")
-        # Method 2: Place an order and return the full response
-        response = smartApi.placeOrderFullResponse(orderparams)
-        logger.info(f"PlaceOrder : {response}")
+        print(orderid)
     except Exception as e:
         logger.exception(f"Order placement failed: {e}")
+        print(e)
+    except SmartApi.smartExceptions.DataException as e:
+        print("error", e)
+        logger.error(f"Order placement failed: {e}")
+        print(e)

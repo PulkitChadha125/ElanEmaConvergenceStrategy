@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e477553-fe15-4219-a882-98e1c579b463" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ElanEmaStrategy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NIFTY16MAY2422300CE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/NIFTY16MAY2422300CE.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngelIntegration.py" beforeDir="false" afterPath="$PROJECT_DIR$/AngelIntegration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Credentials.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instrument.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Instrument.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIFTY16MAY2422300CE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderLogs.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TradeSettings.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TradeSettings.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

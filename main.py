@@ -45,6 +45,7 @@ def get_user_settings():
                 "Stoploss": float(row['Stoploss']),
                 "Target": float(row['Target']),
                 "Tsl": float(row['Tsl']),
+                "USETSL": float(row['USETSL']),
                 "entryprice":None,
                 "slvalue":None,
                 "tpvalue": None,
@@ -117,7 +118,7 @@ def main_strategy():
                 # buy
                 if smalemadifference_current>0 and longemadifference_current <0 and params['BUY'] ==False:
                     if params['sell'] == True:
-                        AngelIntegration.cover(symbol=symbol, token=token, quantity=params['lotsize'], exchange="NFO")
+                        AngelIntegration.cover(symbol=symbol, token=int(token), quantity=int(params['lotsize']), exchange="NFO")
                     params['BUY']=True
                     params['sell']=False
                     params['S'] = True
@@ -127,8 +128,11 @@ def main_strategy():
                     if params['USETSL'] ==True:
                         params['tslstart'] = ltp+params['Tsl']
 
-                    AngelIntegration.buy(symbol=symbol,token= token,quantity=params['lotsize'],exchange="NFO")
-                    orderlog=f"{timestamp} Buy order executed @ {symbol} , @ {ltp}, sl={params['slvalue']},tp={params['tpvalue']}, tsl start={params['tslstart']}"
+                    print(symbol)
+                    print(int(token))
+                    print(int(params['lotsize']))
+                    AngelIntegration.buy(symbol=symbol, token=int(token), quantity=int(params['lotsize']), exchange="NFO")
+                    orderlog=f"{timestamp} Buy order executed @ {symbol} , @ {ltp}, sl={params['slvalue']},tp={params['tpvalue']}, tsl start={params['tslstart']}, small={smalemadifference_current},long={longemadifference_current}"
                     write_to_order_logs(orderlog)
                     print(orderlog)
 
@@ -136,7 +140,7 @@ def main_strategy():
                 # sell
                 if smalemadifference_current<0 and longemadifference_current >0 and params['sell'] ==False:
                     if params['BUY'] == True:
-                        AngelIntegration.sell(symbol=symbol, token=token, quantity=params['lotsize'], exchange="NFO")
+                        AngelIntegration.sell(symbol=symbol, token=int(token), quantity=int(params['lotsize']), exchange="NFO")
 
                     params['BUY'] = False
                     params['sell'] = True
@@ -147,8 +151,11 @@ def main_strategy():
                     if params['USETSL'] == True:
                         params['tslstart'] = ltp - params['Tsl']
 
-                    AngelIntegration.SHORT(symbol=symbol, token=token, quantity=params['lotsize'], exchange="NFO")
-                    orderlog = f"{timestamp} Short order executed @ {symbol} , @ {ltp}, sl={params['slvalue']},tp={params['tpvalue']}, tsl start={params['tslstart']}"
+                    print(symbol)
+                    print(int(token))
+                    print(int(params['lotsize']))
+                    AngelIntegration.SHORT(symbol=symbol, token=int(token), quantity=int(params['lotsize']), exchange="NFO")
+                    orderlog = f"{timestamp} Short order executed @ {symbol} , @ {ltp}, sl={params['slvalue']},tp={params['tpvalue']}, tsl start={params['tslstart']}, small={smalemadifference_current},long={longemadifference_current}"
                     write_to_order_logs(orderlog)
                     print(orderlog)
 
@@ -157,14 +164,20 @@ def main_strategy():
                 if params['BUY']==True:
                     if ltp>=params['tpvalue'] and params['tpvalue']>0:
                         params['BUY']=False
-                        AngelIntegration.sell(symbol=symbol, token=token, quantity=params['lotsize'], exchange="NFO")
+                        print(symbol)
+                        print(int(token))
+                        print(int(params['lotsize']))
+                        AngelIntegration.sell(symbol=symbol, token=int(token), quantity=int(params['lotsize']), exchange="NFO")
                         orderlog = f"{timestamp} Buy exit  @ {symbol} target executed @ {ltp}"
                         write_to_order_logs(orderlog)
                         print(orderlog)
 
                     if ltp<=params['slvalue'] and params['slvalue']>0:
                         params['BUY']=False
-                        AngelIntegration.sell(symbol=symbol, token=token, quantity=params['lotsize'], exchange="NFO")
+                        print(symbol)
+                        print(int(token))
+                        print(int(params['lotsize']))
+                        AngelIntegration.sell(symbol=symbol, token=int(token), quantity=int(params['lotsize']), exchange="NFO")
                         orderlog = f"{timestamp} Buy exit  @ {symbol} stoploss executed @ {ltp}"
                         write_to_order_logs(orderlog)
                         print(orderlog)
@@ -180,14 +193,20 @@ def main_strategy():
                 if params['sell'] == True:
                     if ltp <= params['tpvalue'] and params['tpvalue'] > 0:
                         params['sell'] = False
-                        AngelIntegration.cover(symbol=symbol, token=token, quantity=params['lotsize'], exchange="NFO")
+                        print(symbol)
+                        print(int(token))
+                        print(int(params['lotsize']))
+                        AngelIntegration.cover(symbol=symbol, token=int(token), quantity=int(params['lotsize']), exchange="NFO")
                         orderlog = f"{timestamp} Short exit  @ {symbol} target executed @ {ltp}"
                         write_to_order_logs(orderlog)
                         print(orderlog)
 
                     if ltp >= params['slvalue'] and params['slvalue'] > 0:
                         params['sell'] = False
-                        AngelIntegration.cover(symbol=symbol, token=token, quantity=params['lotsize'], exchange="NFO")
+                        print(symbol)
+                        print(int(token))
+                        print(int(params['lotsize']))
+                        AngelIntegration.cover(symbol=symbol, token=int(token), quantity=int(params['lotsize']), exchange="NFO")
                         orderlog = f"{timestamp} Short exit  @ {symbol} stoploss executed @ {ltp}"
                         write_to_order_logs(orderlog)
                         print(orderlog)
@@ -205,17 +224,23 @@ def main_strategy():
                     params['slvalue']=0
                     params['tpvalue']=0
                     params['tslstart'] = 0
-                    AngelIntegration.sell(symbol=symbol, token=token, quantity=params['lotsize'], exchange="NFO")
+                    print(symbol)
+                    print(int(token))
+                    print(int(params['lotsize']))
+                    AngelIntegration.sell(symbol=symbol, token=int(token), quantity=int(params['lotsize']), exchange="NFO")
                     orderlog = f"{timestamp} Buy exit  @ {symbol} long ema turnd positive: {longemadifference_current}"
                     write_to_order_logs(orderlog)
                     print(orderlog)
                 # sell exit
-                if longemadifference_current > 0 and params['sell'] == True:
+                if longemadifference_current < 0 and params['sell'] == True:
                     params['sell'] = False
                     params['slvalue'] = 0
                     params['tpvalue'] = 0
                     params['tslstart']=0
-                    AngelIntegration.cover(symbol=symbol, token=token, quantity=params['lotsize'], exchange="NFO")
+                    print(symbol)
+                    print(int(token))
+                    print(int(params['lotsize']))
+                    AngelIntegration.cover(symbol=symbol, token=int(token), quantity=int(params['lotsize']), exchange="NFO")
                     orderlog = f"{timestamp} Short exit  @ {symbol} long ema turnd negative: {longemadifference_current}"
                     write_to_order_logs(orderlog)
                     print(orderlog)
@@ -225,7 +250,8 @@ def main_strategy():
         print("Error happened in Main strategy loop: ", str(e))
         traceback.print_exc()
 
-
+AngelIntegration.symbolmpping()
+# AngelIntegration.cover(symbol="NIFTY16MAY2422300CE", token=51689, quantity=50, exchange="NFO")
 
 while True:
     main_strategy()
