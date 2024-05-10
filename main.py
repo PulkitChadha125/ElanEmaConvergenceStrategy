@@ -45,7 +45,8 @@ def get_user_settings():
                 "Stoploss": float(row['Stoploss']),
                 "Target": float(row['Target']),
                 "Tsl": float(row['Tsl']),
-                "USETSL": float(row['USETSL']),
+                "USETSL": (row['USETSL']),
+                "USEEMAEXIT": (row['USEEMAEXIT']),
                 "entryprice":None,
                 "slvalue":None,
                 "tpvalue": None,
@@ -219,7 +220,7 @@ def main_strategy():
                         params['tslstart']=params['tslstart']-params['Tsl']
 
                 # buyexit
-                if longemadifference_current>0 and params['BUY']==True:
+                if longemadifference_current>0 and params['BUY']==True and params['USEEMAEXIT']==True :
                     params['BUY']=False
                     params['slvalue']=0
                     params['tpvalue']=0
@@ -232,7 +233,7 @@ def main_strategy():
                     write_to_order_logs(orderlog)
                     print(orderlog)
                 # sell exit
-                if longemadifference_current < 0 and params['sell'] == True:
+                if longemadifference_current < 0 and params['sell'] == True and params['USEEMAEXIT']==True :
                     params['sell'] = False
                     params['slvalue'] = 0
                     params['tpvalue'] = 0
@@ -251,7 +252,6 @@ def main_strategy():
         traceback.print_exc()
 
 AngelIntegration.symbolmpping()
-# AngelIntegration.cover(symbol="NIFTY16MAY2422300CE", token=51689, quantity=50, exchange="NFO")
 
 while True:
     main_strategy()
